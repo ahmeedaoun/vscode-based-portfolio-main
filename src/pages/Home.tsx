@@ -103,15 +103,15 @@ const Home = ({ setPage }: Props) => {
           position="absolute"
           inset="0"
           borderRadius="50%"
-          bgGradient={`radial(${accentColor}, transparent 70%)`}
+          bgGradient={`radial(${accentColor}, transparent 0%)`}
           opacity={useColorModeValue("0.1", "0.15")}
           filter="blur(15px)"
         />
         <Image
           src={homeData.myImage}
-          width={{ base: "250px", sm: "300px", md: "400px", lg: "425px" }}
+          width={{ base: "200px", sm: "200px", md: "300px", lg: "370px" }}
           height="auto"
-          borderRadius="50%"
+          borderRadius="5%"
           border="4px solid"
           borderColor={accentColor}
           transition="transform 0.3s"
