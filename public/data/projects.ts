@@ -10,7 +10,7 @@ export const projects = [
   },
 
   {
-    ImageURL: "/assets/project-vscode.jpg",
+    ImageURL: "/assets/tech-consulting-agency.jpg",
     Title: "Codevia - Consulting Agency",
     Description: "Transform Your Digital Vision.",
     Technologies: ["react", "typescript", "chakra-ui", "responsive"],
